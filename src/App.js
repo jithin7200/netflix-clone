@@ -12,24 +12,27 @@ function App() {
     <React.Fragment>
       <Router>
         <Routes>
-          <Route path="/" element={
-            <React.Fragment>
-              <Header/>
+
+          <Route path="/" element={<React.Fragment><Header/>
+             
+             
               <HomeBanner/>
-            </React.Fragment>
-          }/>
+
+            </React.Fragment>}/>
+           
+            {/* <Route path="/ netflix-clone" element={<React.Fragment><Header/>
+              </React.Fragment>}/> */}
+
           <Route path="/login" element={
             <React.Fragment>
               <Header/>
               <Login/>
-            </React.Fragment>
-          }/>
+            </React.Fragment> }/>
           <Route path="/register" element={
             <React.Fragment>
               <Header/>
               <Login/>
-            </React.Fragment>
-          }/>
+            </React.Fragment>  }/>
           <Route path="/dashboard" element={
             <React.Fragment>
               <Header/>
